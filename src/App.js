@@ -71,7 +71,7 @@ const App = () => {
   ];
 
   return (
-    <Grid container style={{ backgroundColor: "#E9EAEF" }}>
+    <Grid container style={{ backgroundColor: "#f5f6fa" }}>
       <Grid item xs={12}>
         <TopBar />
       </Grid>

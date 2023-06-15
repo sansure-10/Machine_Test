@@ -1,7 +1,6 @@
 import React from "react";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
 import { Box, Button, IconButton } from "@mui/material";
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 import LoginImage from "./loginimage.png";
@@ -13,7 +12,7 @@ const TopBar = () => {
       <Toolbar>
         {/* Logo */}
         <IconButton color="inherit">
-          <img src={TitleImage} alt="Login" style={{ height: "54px",width:'134px' }} />
+          <img src={TitleImage} alt="Login" style={{ height: "54px",width:'174px' }} />
         </IconButton>
         {/* Navigation buttons */}
         <Button color="inherit" sx={{ margin: "0 16px" }}>
@@ -36,7 +35,7 @@ const TopBar = () => {
         </Button>
         {/* Login button with image */}
         <IconButton color="inherit">
-          <img src={LoginImage} alt="Login" style={{ height: "54px" }} />
+          <img src={LoginImage} alt="Login" style={{ height: "54px",width:'183px' }} />
         </IconButton>
         {/* Spacer */}
         <Box sx={{ flexGrow: 1 }} />
